@@ -6,12 +6,12 @@
 using namespace std;
 
 int main() {
-    //number
+    //get number, store as int
     int num;
     cout << "Number: ";
     cin >> num;
 
-    //get parity
+    //get parity, store as bool
     bool parity = num%2;
 
     //send output, terminate program
